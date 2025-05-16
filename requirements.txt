@@ -1,5 +1,6 @@
-chainlit
-openai
-supabase
-psycopg2-binary
-python-dotenv
+chainlit>=0.7.700
+openai>=1.1.1
+psycopg2-binary>=2.9.9
+python-dotenv>=1.0.0
+fastapi>=0.100.0
+uvicorn>=0.24.0

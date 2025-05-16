@@ -1,0 +1,18 @@
+# Chainlit config file
+port: ${PORT}
+host: "0.0.0.0"
+
+# UI Customization
+interface:
+    theme: dark
+    default_expand_messages: true
+
+# Project settings
+project:
+    enable_telemetry: false
+    database_url: ${DATABASE_URL}
+
+# Middleware settings
+middleware:
+    allowed_origins: ["*"]
+    trust_remote: true

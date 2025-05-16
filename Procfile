@@ -1,1 +1,1 @@
-web: uvicorn chainlit.app:app --host 0.0.0.0 --port $PORT
+web: chainlit run chainlit_app/main.py --host 0.0.0.0 --port $PORT --headless

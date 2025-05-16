@@ -1,1 +1,1 @@
-web: chainlit run chainlit_app/main.py --host 0.0.0.0 --port $PORT --headless
+web: bash start.sh

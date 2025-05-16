@@ -1,8 +1,3 @@
-import os
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8000))
-    import chainlit.cli
-    chainlit.cli.run(["run", "main.py", "--port", str(port)])
 import chainlit as cl
 from llm import nl_to_sql, ask_llm
 from db import execute_sql

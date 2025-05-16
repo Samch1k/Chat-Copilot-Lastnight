@@ -1,6 +1,6 @@
 import chainlit as cl
-from chainlit_app.llm import nl_to_sql, ask_llm
-from chainlit_app.db import execute_sql
+from llm import nl_to_sql, ask_llm
+from db import execute_sql
 import os
 
 @cl.on_message
